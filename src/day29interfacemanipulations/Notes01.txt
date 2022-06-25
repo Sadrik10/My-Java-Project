@@ -1,0 +1,71 @@
+Java Abstraction
+	abstract class
+	encapsulation
+	Inheritance
+	abstraction
+	polymorphism
+
+	Animal animal = new Cat();
+	How much would you rate yourself out of 10 in Java?
+	5-6-78
+
+	I know Core Java
+	String manipulations
+	Data structures(Collections and Maps)
+	OOP Concept
+	exceptions
+	public class Car extends Engine, AirCondition
+	public  Interface  Animal{
+		public int eat();
+	}
+	public Interface Mammal(){
+		public int eat();
+	}
+	public class Cat  implements Animal,Mammal (){
+		// this return String
+		public int eat(   ){}; //Override, it will return int
+		Signature: order of parameters
+				   number of parameters
+				   type of parameters
+	}
+	Interface uses abstract key work for Interface name
+	No need for abstract key word
+	Interface can have constructor
+	No and no need to try to initialize variables as they are final
+	Abstract class needs abstract key word
+	yes
+	Abstract class can have concrete and abstract methods
+	yes
+	Abstract class can have constructors
+	abstract class can have final, static, private variables
+	yes
+	Interface can have final, static, public variables
+	yes
+	Interface can have default, private protected variables
+	no
+
+	Interface can have concrete methods other than default and static
+	Interface and abstract class cannot create objects
+	yes
+
+	Difference between an Interface and abstract class?
+	Interface cannot have any constructor, but abstract class can have constructors
+	Interface can be implemented many times(multiple inheritance) , but Abstract class cannot have multiple Inheritance.
+	Interface is fully abstraction and cannot use all concrete methods,
+	but Abstract has abstract methods and concrete methods
+
+	Difference between an Abstract class and a concrete class?
+	Concrete class can produce Object, but we cannot create Object from abstract class
+	Concrete class has concrete methods, but Abstract class has concrete and abstract methodstry catch
+
+	throws exception
+	what is the biggest difference between try catch block and throws Exception?
+	when we use try catch block, we can apply it mostly to utilities as we will not have to handle it again, but when we use throws Exception, we can use it only when we need to use it once in a method signature(It can be test or development level).
+
+	List<String> list = new LinkedList();
+	list.add("L");
+	list.add("I");
+	list.add("S");
+	list.add("T");
+	[L,I,S,T]
+	[L,I,S,T]
